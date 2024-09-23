@@ -61,7 +61,7 @@ public class RecipeEntryUpgrade extends RecipeEntryCraftingDynamic {
 
 	@Override
 	public int getRecipeSize() {
-		//todo: not sure what this does
+		//Not sure what this does
 		return 2;
 	}
 
