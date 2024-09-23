@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "silkyupgrades",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Silky Upgrades",
+  "description": "",
   "authors": [
-    "Turnip Labs"
+    "Big Sir"
   ],
   "contact": {
     "homepage": "",
@@ -14,25 +14,25 @@
   },
 
 	"icon": "icon.png",
-  "license": "CC0-1.0",
+  "license": "GNU LGPLv3",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+      "bigsir.silkyupgrades.SilkyUpgrades"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "bigsir.silkyupgrades.SilkyUpgrades"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "bigsir.silkyupgrades.SilkyUpgrades"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+          "bigsir.silkyupgrades.SilkyUpgrades"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "silkyupgrades.mixins.json"
   ],
 
   "depends": {

@@ -8,7 +8,6 @@ import net.minecraft.core.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
-import bigsir.silkyupgrades.SilkyUpgrades;
 
 @Mixin(value = Block.class, remap = false)
 public abstract class BlockMixin {

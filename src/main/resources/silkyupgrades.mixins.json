@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bigsir.silkyupgrades.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockMixin",
+    "ItemToolMixin",
+    "ItemStackMixin",
+    "ItemToolHoeMixin",
+    "ItemToolSwordMixin"
+  ],
+  "client": [
+    "ItemModelStandardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
